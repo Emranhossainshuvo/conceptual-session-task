@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(60, 59, 59);
+    width: 100%;
+    align-items: center;
+    height:20vh;
+}
+.nav-manus{
+    display: flex;
+    color: white;
+}
+.items{
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
