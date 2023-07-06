@@ -56,3 +56,65 @@
 .banner-button:hover{
     background-color: #464444;
 }
+/* .main-section-div{
+    
+} */
+.main-section-div{
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url('/images/hamish-weir-aYEUXnVG8tg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 10px 10px 20px rgba(12, 10, 10, 0.22); */
+    /* box-shadow: 10px, 10px, 10px, #464444; */
+}
+.icon-image{
+    height: 70px;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+#main-section-heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    background-color: #646060;
+    background: linear-gradient(10deg, #5A5A5A, #808080 )
+    /* color: red; */
+}
+.single-div{
+    /* border: 2px solid black; */
+    height: 300px;
+    background-color: rgb(150, 145, 145);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(12, 10, 10, 0.22);
+}
+.single-div-heading{
+    margin-top: 10x;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.single-div-text{
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.single-div-button{
+    background-color: rgb(89, 87, 87);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    /* text-align: center */
+    /* justify-content: center; */
+    margin-left: 57px;   
+}
+.single-div-button:hover{
+    
+        background-color: #968e8e;
+}
